@@ -19,7 +19,13 @@ If you’re new to system administration, take some time to learn its basics bef
 A **Virtual Machine (VM)** is software that simulates a physical computer. It creates a sandboxed environment, allowing you to run multiple operating systems without affecting your host system.
 
 ### How Does It Work?  
-A VM uses allocated CPU, memory, and storage resources from your physical machine to emulate a computer.  
+At the core of virtualization is the hypervisor, a layer of software that manages the VM’s access to your physical hardware (CPU, memory, and storage). The hypervisor ensures each VM operates independently and securely.
+
+There are two types of hypervisors:
+
+#### Type 1 (Bare-metal): Runs directly on hardware, often used in enterprise setups (e.g., VMware ESXi, Microsoft Hyper-V).
+#### Type 2 (Hosted): Runs on top of an existing operating system, suitable for personal or development use (e.g., VirtualBox, VMware Workstation).
+In this project, I used VirtualBox, a Type 2 hypervisor, to create and manage my virtual machine.
 
 ### Purpose of Using a VM  
 - **Learning:** Experiment without risk to your host OS.  
