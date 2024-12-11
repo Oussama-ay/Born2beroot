@@ -10,7 +10,7 @@ The **Born2beroot** project is an exciting dive into system administration. Usin
 
 ---
 
-## 2.A Word of Advice
+## 2. A Word of Advice
 
 If you’re new to system administration, take some time to learn its basics before setting it up. and the best thing is to start the partitions of the bonus part of this project, you’ll see the practical benefits compared to mandatory partitions.
 
